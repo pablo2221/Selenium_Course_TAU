@@ -32,6 +32,5 @@ public class AlertTests extends BaseTests {
         alertPage.alert_setInput(text);
         alertPage.alert_ClickToAccept();
         assertEquals(alertPage.getResult(),"You entered: "+text,"Results text incorrect");
-
     }
 }

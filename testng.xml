@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/pablomac/Downloads/UCreativa/webdriver_java/pom.xml"><classes/></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="TAU Learning Selenium">
+        <packages>
+            <package name="alerts"></package>
+            <package name="dropdown"></package>
+            <package name="forgotPassword"></package>
+            <package name="horizontalSlider"></package>
+            <package name="hover"></package>
+            <package name="keys"></package>
+            <package name="login"></package>
+        </packages>
+    </test>
+</suite>
