@@ -51,6 +51,11 @@ public class HomePage {
         return new FileUploadPage(driver);
     }
 
+    public WysiwygEditorPage clickWysiwygEditor(){
+        clickLink("WYSIWYG Editor");
+        return new WysiwygEditorPage(driver);
+    }
+
     public ContextMenuPage clickContextMenu(){;
         clickLink("Context Menu");
         return new ContextMenuPage(driver);
