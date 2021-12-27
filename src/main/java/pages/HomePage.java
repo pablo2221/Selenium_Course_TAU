@@ -20,6 +20,7 @@ public class HomePage {
         clickLink("Dropdown");
         return new DropdownPage(driver);
     }
+    
 
     public ForgotPasswordPage clickForgotPassword(){
         clickLink("Forgot Password");
@@ -59,6 +60,16 @@ public class HomePage {
     public ContextMenuPage clickContextMenu(){;
         clickLink("Context Menu");
         return new ContextMenuPage(driver);
+    }
+
+    public LargeAndDeepDomPage clickLargeAndDeepDom(){
+        clickLink("Large & Deep DOM");
+        return new LargeAndDeepDomPage(driver);
+    }
+
+    public InfiniteScrollPage clickInfiniteScroll(){
+        clickLink("Infinite Scroll");
+        return new InfiniteScrollPage(driver);
     }
 
     public DynamicLoadingPage clickDynamicLoading(){;
