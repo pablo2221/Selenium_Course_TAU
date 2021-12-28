@@ -11,6 +11,8 @@
             <package name="keys"></package>
             <package name="login"></package>
             <package name="frames"></package>
+            <package name="wait"></package>
+            <package name="javascript"></package>
         </packages>
     </test>
 </suite>
